@@ -9,6 +9,7 @@ Minha Paleta de cores 2
 rosa: #FA0986
 Lilás: #9C14DE
 Azul: #3518DE
+azul claro: #ACD5FF
 
 Paleta de cores Guanabara
 Verde: #49a09d
@@ -47,6 +48,8 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transition: width .3s, height .3s;
 }
 
 section#login > div#imagem {
